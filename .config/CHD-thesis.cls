@@ -1078,6 +1078,7 @@
   \hypersetup{bookmarksdepth=-2}
   \addcontentsline{toc}{chapter}{摘~~~~要}
   \addcontentsline{toe}{chapter}{ABSTRACT (Chinese)}
+  \fontsize{12pt}{15.6pt}
   \hypersetup{bookmarksdepth=2}
   \markboth{摘~~~~要}{摘~~~~要}
 }{\clearpage}
@@ -1093,6 +1094,7 @@
   \hypersetup{bookmarksdepth=-2}
   \addcontentsline{toc}{chapter}{ABSTRACT}
   \addcontentsline{toe}{chapter}{ABSTRACT (English)}
+  \fontsize{12pt}{15.6pt}
   \hypersetup{bookmarksdepth=2}
   \markboth{ABSTRACT}{ABSTRACT}
 %  \setlength{\parindent}{0em}
