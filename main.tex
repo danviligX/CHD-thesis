@@ -1,0 +1,45 @@
+% !TEX encoding = UTF-8 Unicode
+% 编译请使用 Xelatex + Biber
+\documentclass[bachelor]{./.config/CHD-thesis}
+
+% 添加模板以外的package，模板包含的package见: ./data/chap6.tex
+% \usepackage{}
+
+% 空括号{}为英文拓展项，不能删除
+\title{题目XXX}{}
+\author{姓名XXX}{}
+\stuid{学号XXX}
+\subject{专业名XXX}{}
+\school{学院名XXX}{}
+\advisor{指导老师XXX}{职称XXX}{}{}
+
+% 提交时间
+\submitdate[2023][6]
+
+% 封面下方的时间，应写汉字
+\doctime{二〇二三}{七}
+
+% 引用文献bib文件
+\bibliography{data/ref.bib}
+
+\begin{document}
+\thesistitles\thesisabstract\thesistableofcontens
+
+% 正文 
+\thesisbody{
+    data/chap1,
+    data/chap2,
+    data/chap3,
+    data/chap4,
+    data/chap5,
+    data/chap6
+}
+
+\thesisconclusion\thesisacknowledegment\thesisbibliography
+
+% 含页眉空白页产生方法
+\newpage\indent\newpage
+
+% 附件
+\thesisappendix{data/appendix-a,data/appendix-b}
+\end{document}
