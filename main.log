@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.2.14)  11 MAY 2023 10:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.19)  27 MAY 2023 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -29,8 +29,8 @@ LaTeX Warning: You have requested document class `./.config/CHD-thesis',
 Document Class: CHD-thesis 2023/01/8 0.1.5 Chang'an University Template
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
 \c@chapter=\count189
@@ -1342,27 +1342,27 @@ dflt;+smcp;mapping=tex-text;"
 \symLatin:m:it=\mathgroup10
 \symGreek:m:n=\mathgroup11
 \symGreek:m:it=\mathgroup12
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 267.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 268.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/times.ttf(0)/m/n --> TU/times.ttf(0)/bx/n on input l
-ine 267.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 267.
+ine 268.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 268.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/times.ttf(0)/m/it on input line 267
+(Font)                  OT1/lmr/m/it --> TU/times.ttf(0)/m/it on input line 268
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/lmr/bx/it --> TU/times.ttf(0)/m/it on input line 26
-7.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 267.
+8.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 268.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 267
+(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 268
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 267
+(Font)                  OT1/lmr/bx/n --> TU/times.ttf(0)/bx/n on input line 268
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/times.ttf(0)/m/it --> TU/times.ttf(0)/bx/it on input
- line 267.
+ line 268.
 \symOperators:m:n=\mathgroup13
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
@@ -1510,7 +1510,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package thmtools Info: Key `qed' (with value `\qedsymbol ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=style_proof' on input line 546.
+(thmtools)             that uses `style=style_proof' on input line 547.
 \c@theorem=\count425
 
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -1528,7 +1528,7 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-Package footmisc Info: Declaring symbol style circled on input line 584.
+Package footmisc Info: Declaring symbol style circled on input line 585.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
@@ -1885,11 +1885,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 1289.
+Package glossaries Info: Writing glossary file main.glo on input line 1293.
 \glo@symbols@file=\write7
 \openout7 = `main.slo'.
 
-Package glossaries Info: Writing glossary file main.slo on input line 1289.
+Package glossaries Info: Writing glossary file main.slo on input line 1293.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
@@ -2177,12 +2177,7 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 25.
 \@quotelevel=\count603
 \@quotereset=\count604
-
-
-LaTeX Warning: Unused global option(s):
-    [10.5pt].
-
-(./main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -2227,18 +2222,18 @@ or `english'. on input line 25.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=449.55356pt
-* \textheight=673.02797pt
+* \textheight=669.05365pt
 * \oddsidemargin=1.70717pt
 * \evensidemargin=1.70717pt
 * \topmargin=0.0pt
 * \headheight=14.22636pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=-28.45274pt
 * \mag=1000
@@ -2300,6 +2295,26 @@ File: .config/icons/chdblacklogo.pdf Graphic file (type pdf)
 <use .config/icons/chdblacklogo.pdf>
 File: .config/icons/chd.pdf Graphic file (type pdf)
 <use .config/icons/chd.pdf>
+
+Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
+(fontspec)             'FandolHei-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
+].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 26.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 6.
@@ -2354,60 +2369,28 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [2
 
 ]
-(./structure/abstract_chs.tex
+(./structure/abstract_chs.tex [1
 
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
-(fontspec)             'FandolHei-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
-].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-[1
-
-]
-Overfull \hbox (1.66667pt too wide) in paragraph at lines 16--16
-[][] [] 
- []
-
-[2]) (./structure/abstract_eng.tex [3
+] [2]) (./structure/abstract_eng.tex [3
 
 
 
-]
-Overfull \hbox (1.66667pt too wide) in paragraph at lines 19--19
-[][] [] 
- []
-
-) [4] (./main.toc
+])
+[4] (./main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
+(Font)              <10.95> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1.
+(Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1.
-)
-\tf@toc=\write9
-\openout9 = `main.toc'.
-
+(Font)              <6> on input line 1.
  [5
 
 
-] [6
+])
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
-] (./data/chap1.tex
+ [6] (./data/chap1.tex
 Chapter 1.
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
 3.
@@ -2428,6 +2411,9 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 [1
+
+
+] [2
 
 ]
 \tcb@out=\write10
@@ -2462,17 +2448,16 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) (./main.listing) (./main.listing) [2
-
-]
+) (./main.listing) (./main.listing)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 103.
+(Font)              <5> on input line 103.
  [3]
-Overfull \hbox (45.88655pt too wide) in paragraph at lines 120--121
-[]\TU/fzsong.ttf(0)/m/n/10 模 板 引 入 了[][][][][][]宏 包 实 现 数 字 与 单 位 的 正 确 排 版，|  
-具 体 使 用 细 节 请 自 行 查 看 该 宏 包，|  即 [][][][][][]。| 
+Overfull \hbox (27.18796pt too wide) in paragraph at lines 122--123
+[]\TU/fzsong.ttf(0)/m/n/10.95 为 了 输 入 不 同 格 式 及 角 度 的 数 字，|  可 以 使 用[][][][][][
+]得 到$[]\OML/lmm/m/it/10.95 :[][] \OMS/lmsy/m/n/10.95 ^^B [][][]$\TU/fzsong.ttf(
+0)/m/n/10.95 ，|  使 用[][][][][][]得
  []
 
 \openout10 = `main.listing'.
@@ -2489,28 +2474,22 @@ Package amsmath Warning: Foreign command \over;
 \openout10 = `main.listing'.
 
  (./main.listing) (./main.listing
-LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <10> not availabl
-e
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <10.95> not avail
+able
 (Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
 e 3.
-LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <7> not available
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <8> not available
 
 (Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
 e 3.
-LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <5> not available
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <6> not available
 
 (Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
 e 3.
 ) [5]
-Overfull \hbox (28.39957pt too wide) in paragraph at lines 178--179
-[]\TU/fzsong.ttf(0)/m/n/10 本 模 板 通 过[][][][][][]宏 包 定 义 了 以 下 环 境，|  其 中 \TU/fz
-song.ttf(0)/b/n/10 证 明 \TU/fzsong.ttf(0)/m/n/10 环 境 默 认 具 有 缩 进，|  没 有 编 号，|  同
- 时 使 用[][][][][][]结
- []
-
 \openout10 = `main.listing'.
 
-(./main.listing) (./main.listing
+ (./main.listing) (./main.listing
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
 t line 1.
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
@@ -2526,20 +2505,11 @@ Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 226.
 \openout10 = `main.listing'.
 
- (./main.listing) (./main.listing) [6
 
-])
-[7] (./data/chap2.tex [8]
+(./main.listing) (./main.listing) [6
+
+] [7]) (./data/chap2.tex [8]
 Chapter 2.
-
-Underfull \hbox (badness 1320) in paragraph at lines 26--27
-[]\TU/fzsong.ttf(0)/m/n/10 图 尺 寸 的 \TU/fzsong.ttf(0)/b/n/10 一 般 宽 高 比 \TU/fzson
-g.ttf(0)/m/n/10 应 为 $[]\OML/lmm/m/it/10 :[][]$$[]$$\OMS/lmsy/m/n/10 ^^B$$[]\OML
-/lmm/m/it/10 :[][]$$[]$\TU/fzsong.ttf(0)/m/n/10 。|  特 殊 情 况 下，|  也 可 为 $[]\OML/
-lmm/m/it/10 :[][]$$[]$$\OMS/lmsy/m/n/10 ^^B$$[]\OML/lmm/m/it/10 :[][]$$[]$\TU/f
-zsong.ttf(0)/m/n/10 ，|  或
- []
-
 \openout10 = `main.listing'.
 
 (./main.listing)
@@ -2576,13 +2546,13 @@ File: ./figures/chdcolorlogo.pdf Graphic file (type pdf)
 \openout10 = `main.listing'.
 
 
-(./main.listing) (./main.listing)
-\openout10 = `main.listing'.
-
- (./main.listing) (./main.listing) [13
+(./main.listing) (./main.listing) [13
 
 
 ]
+\openout10 = `main.listing'.
+
+ (./main.listing) (./main.listing)
 [14]
 \openout10 = `main.listing'.
 
@@ -2597,9 +2567,9 @@ File: ./figures/chdcolorlogo.pdf Graphic file (type pdf)
 (./data/chap3.tex [18]
 Chapter 3.
 
-Overfull \hbox (83.7199pt too wide) in paragraph at lines 11--12
-[]\TU/fzsong.ttf(0)/m/n/10 在 仔 细 研 究 后，|  本 模 板 使 用 了 基 于 [][][][][][] 宏 包 的 算 
-法 排 版 工 具，|  而 没 有 使 用 [][][][][][]。|
+Overfull \hbox (133.24074pt too wide) in paragraph at lines 11--12
+[]\TU/fzsong.ttf(0)/m/n/10.95 在 仔 细 研 究 后，|  本 模 板 使 用 了 基 于 [][][][][][] 宏 包 的
+ 算 法 排 版 工 具，|  而 没 有 使 用 [][][][][][]。|
  []
 
 \openout10 = `main.listing'.
@@ -2622,47 +2592,19 @@ Chapter 4.
  (./main.listing) (./main.listing) [22
 
 ]
-Overfull \hbox (36.6652pt too wide) in paragraph at lines 53--54
-[]\TU/fzsong.ttf(0)/m/n/10 这 里 主 要 举 例 三 种 引 用 方 式，|  使 用 [][][][][][] 的 引 用 结 
-果 作 为 上 标 出 现 在 正 文 中，|  使 用 [][][][][][]
+Overfull \hbox (24.67891pt too wide) in paragraph at lines 53--54
+[][][][][][] \TU/fzsong.ttf(0)/m/n/10.95 的 引 用 结 果 作 为 正 文 内 容  |（一 个 名 词）|  出 
+现 在 正 文 中，|  使 用 [][][][][][]
  []
 
 \openout10 = `main.listing'.
 
 (./main.listing) (./main.listing
-
-LaTeX Warning: Citation 'barella_situ_2021' on page 23 undefined on input line 
-1.
-
-
-LaTeX Warning: Citation 'atta_enhanced_2021' on page 23 undefined on input line
- 1.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-
-LaTeX Warning: Citation '张燕2013电气自动化在电气工程中的应用探讨' on page 23 undefined on input 
-line 3.
-
-
-LaTeX Warning: Citation '黄雪芳2012探讨电气工程中自动化技术的应用' on page 23 undefined on input 
-line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\TU/fzsong.ttf(0)/m/n/10 文 献[] 提 出 了 \TU/times.ttf(0)/m/n/10 xxx\TU/fzsong.tt
-f(0)/m/n/10 ，|  文 献
- []
-
-)
-
-LaTeX Warning: Citation '王磊2011电气自动化控制设备可靠性探究' on page 23 undefined on input li
-ne 64.
-
-) (./data/chap5.tex [23]
+)) (./data/chap5.tex [23]
 Chapter 5.
 ) (./data/chap6.tex [24
 
@@ -2678,11 +2620,32 @@ Chapter 6.
 
 
 ] [30])
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.53937> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <10.53937> not av
+ailable
+(Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
+e 38.
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <7> not available
 
-LaTeX Warning: Empty bibliography on input line 38.
+(Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
+e 38.
+LaTeX Font Info:    Font shape `TU/times.ttf(0)/bx/n' in size <5> not available
+
+(Font)              Font shape `TU/times.ttf(0)/b/n' tried instead on input lin
+e 38.
+
+Overfull \hbox (7.13725pt too wide) in paragraph at lines 38--38
+\TU/times.ttf(0)/m/n/10.53937 mances of self-assembled Artemia eggshell-ZnO nan
+ocomposites for wastewater treatment[J]. Colloids
+ []
 
 [31
 
+
+] [32
 
 ]
 \l_tmpa_count=\count607
@@ -2690,7 +2653,7 @@ LaTeX Warning: Empty bibliography on input line 38.
 附录 附录A.
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
 t line 25.
-) (./data/appendix-b.tex [32
+) (./data/appendix-b.tex [33
 
 ]
 附录 附录B.
@@ -2704,28 +2667,20 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[33
+[34
 
 ] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65350 strings out of 477728
- 1416462 string characters out of 5842238
- 2514573 words of memory out of 5000000
- 84752 multiletter control sequences out of 15000+600000
- 515330 words of font info for 175 fonts, out of 8000000 for 9000
+ 65483 strings out of 477728
+ 1422514 string characters out of 5842238
+ 2514867 words of memory out of 5000000
+ 84876 multiletter control sequences out of 15000+600000
+ 524136 words of font info for 194 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 115i,17n,157p,1453b,2762s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,17n,157p,1814b,5318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (41 pages).
+Output written on main.pdf (42 pages).

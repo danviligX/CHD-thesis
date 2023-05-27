@@ -69,7 +69,7 @@
 }
 \ProcessOptions\relax
 
-\LoadClass[10.5pt,twoside,openany]{book}
+\LoadClass[11pt,twoside,openany]{book}
 \iftyp@slide\relax\else
   \iftyp@report\relax\else
     \iftyp@bachelor\relax\else
@@ -87,6 +87,7 @@
 %%% 编译器设置 %%%
 \RequirePackage{ifxetex}
 \RequireXeTeX
+
 
 
 
@@ -676,7 +677,7 @@
 \titleformat{\section}[block]
   {\fontsize{15pt}{15pt}\heiti\bfseries}{\arabic{chapter}.\arabic{section}}{7pt}{}
 \titleformat{\subsection}[block]
-  {\fontsize{12pt}{12pt}\selectfont\bf}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}{7pt}{}
+  {\fontsize{12pt}{12pt}\heiti\bfseries}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}{7pt}{}
 \titleformat{\subsubsection}[block]
   {\fontsize{10.5pt}{10.5pt}\selectfont}{\arabic{subsubsection}）}{6pt}{}
 \titleformat{\paragraph}[block]
@@ -924,7 +925,7 @@
     \includegraphics[width=11cm]{.config/icons/chd.pdf} \\[1cm]
     \fontsize{26pt}{26pt}\selectfont 二\hspace{16pt}〇\hspace{16pt}二\hspace{16pt}三\hspace{16pt}届\hspace{16pt}毕\hspace{16pt}业\hspace{16pt}论\hspace{16pt}文\\
     \vskip 2cm
-    \erhao {\bfseries \zh@thetitle}\\
+    \erhao {\bfseries\heiti \zh@thetitle}\\
     \vskip 2cm
   \end{center}
 
@@ -1094,23 +1095,26 @@
   \hypersetup{bookmarksdepth=-2}
   \addcontentsline{toc}{chapter}{ABSTRACT}
   \addcontentsline{toe}{chapter}{ABSTRACT (English)}
-  \fontsize{12pt}{15.6pt}
   \hypersetup{bookmarksdepth=2}
   \markboth{ABSTRACT}{ABSTRACT}
 %  \setlength{\parindent}{0em}
-  \setlength{\parskip}{0.35\baselineskip}
+%  \setlength{\parskip}{0.35\baselineskip}
 }{}
 
-\newcommand{\keywordswithtype}[4]{
-  \noindent
-  \begin{minipage}[t]{\linewidth}
+\newcommand{\keywordswithtype}[4]{	
+  \noindent\\
   \vspace{0.1\baselineskip}
   \parbox[t]{\widthof{#1}}{#1}
-  \parbox[t]{\linewidth - \widthof{#1}}{\fontsize{12pt}{12pt}\selectfont #3}
-  \\[0.5\baselineskip]
-  \parbox[t]{\widthof{#2}}{#2}
-  \parbox[t]{\linewidth - \widthof{#2}}{\fontsize{12pt}{12pt}\selectfont #4}
-  \end{minipage}
+  {\fontsize{12pt}{12pt}\selectfont #3}
+%  {\fontsize{12pt}{12pt}\selectfont #4}
+%  \begin{minipage}[t]{\linewidth}
+%  \vspace{0.1\baselineskip}
+%  \parbox[t]{\widthof{#1}}{#1}
+%  \parbox[t]{\linewidth - \widthof{#1}}{\fontsize{12pt}{12pt}\selectfont #3}
+%  \\[0.5\baselineskip]
+%  \parbox[t]{\widthof{#2}}{#2}
+%  \parbox[t]{\linewidth - \widthof{#2}}{\fontsize{12pt}{12pt}\selectfont #4}
+%  \end{minipage}
 }
 
 \newcommand{\chskeywords}{\fontsize{12pt}{12pt}\heiti\selectfont \bfseries 关键词：}
@@ -1318,7 +1322,7 @@
   \chapter{\itemi}
   \resumetocwriting
 %  \addchscontents{chapter}{#1}
-  \addcontentsline{toc}{chapter}{第\chinese{chapter}章~~#1}
+  \addcontentsline{toc}{chapter}{\heiti 第\chinese{chapter}章~~#1}
   \addengcontents{chapter}{#2}
   \pdfbookmark[0]{第\chinese{chapter}章~~\itemi}{\thechapter #2}
 }
