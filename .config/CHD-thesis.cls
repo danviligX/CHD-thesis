@@ -820,8 +820,6 @@
 \RequirePackage{bookmark}
 \pdfstringdefDisableCommands{\let\backslash\textbackslash}
 \hypersetup{bookmarksdepth=2}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%                        COMPONETS                          %%%%%%%%%%
@@ -930,19 +928,19 @@
   \end{center}
 
 	\begin{center}
-	\thu@titlepage@info@tabular{2.8cm}{2.8cm}{0.82cm}{%
+	\thu@titlepage@info@tabular{2.3cm}{0.2cm}{0.2cm}{%
 		\fontsize{16pt}{1}
-		\thu@info@item{学院}{}{\zh@theschool}\\
+		\thu@info@item{\bf 学~~~~~~~~院}{}{\bf \zh@theschool}\\
 		\fontsize{16pt}{1}
-		\thu@info@item{专业}{}{\zh@thesubject}\\
+		\thu@info@item{\bf 专~~~~~~~~业}{}{\bf \zh@thesubject}\\
 		\fontsize{16pt}{1}
-		\thu@info@item{姓名}{}{\zh@theauthor}\\
+		\thu@info@item{\bf 姓~~~~~~~~名}{}{\bf \zh@theauthor}\\
 		\fontsize{16pt}{1}
-		\thu@info@item{学号}{}{\sanhao \zh@thestuid}\\
+		\thu@info@item{\bf 学~~~~~~~~号}{}{\bf \sanhao \zh@thestuid}\\
 		\fontsize{16pt}{1}
-		\thu@info@item{指导教师}{}{\zh@theadvisor}\\
+		\thu@info@item{\bf 指导教师}{}{\bf \zh@theadvisor}\\
 		\fontsize{16pt}{1}
-		\thu@info@item{完成时间}{}{\sanhao \zh@thesubmitdate}\\
+		\thu@info@item{\bf 完成时间}{}{\bf \sanhao \zh@thesubmitdate}\\
 	}
 	\end{center}
 
