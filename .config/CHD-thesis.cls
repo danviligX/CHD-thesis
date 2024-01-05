@@ -400,7 +400,7 @@
 \iftyp@bachelor
   \def\chinesedegreename{本科}
   \def\englishdegreename{Bachelor}
-  \def\chinesebooktitle{本科毕业设计（论文）}
+  \def\chinesebooktitle{本科毕业论文}
   \def\englishbooktitle{Bachelor Thesis}
   \def\englishthesistype{A thesis}
 \fi
@@ -1075,7 +1075,7 @@
   \chapter*{\heiti\fontsize{16pt}{16pt}\textbf{摘~~~~要}}
 
   \hypersetup{bookmarksdepth=-2}
-  \addcontentsline{toc}{chapter}{摘~~~~要}
+  \addcontentsline{toc}{chapter}{\heiti 摘~~~~要}
   \addcontentsline{toe}{chapter}{ABSTRACT (Chinese)}
   \fontsize{12pt}{15.6pt}
   \hypersetup{bookmarksdepth=2}
@@ -1091,7 +1091,7 @@
   \fi
   \echapter{}{}
   \hypersetup{bookmarksdepth=-2}
-  \addcontentsline{toc}{chapter}{ABSTRACT}
+  \addcontentsline{toc}{chapter}{\heiti ABSTRACT}
   \addcontentsline{toe}{chapter}{ABSTRACT (English)}
   \hypersetup{bookmarksdepth=2}
   \markboth{ABSTRACT}{ABSTRACT}
@@ -1438,7 +1438,7 @@
 	\pdfbookmark{\thesisconclusionstitle}{Conclusion and Future Works}
 	
 	\hypersetup{bookmarksdepth=-2}
-	\addcontentsline{toc}{chapter}{总结与展望}
+	\addcontentsline{toc}{chapter}{\heiti 总结与展望}
 	\addcontentsline{toe}{chapter}{Conclusion and Future Works}
 	\hypersetup{bookmarksdepth=2}
 	\chapter*{\thesisconclusionstitle}
@@ -1468,7 +1468,7 @@
   \pdfbookmark{\thesisacknowledgementstitle}{Acknowledgements}
 
   \hypersetup{bookmarksdepth=-2}
-  \addcontentsline{toc}{chapter}{致谢}
+  \addcontentsline{toc}{chapter}{\heiti 致谢}
   \addcontentsline{toe}{chapter}{Acknowledgements}
   \hypersetup{bookmarksdepth=2}
   \chapter*{\thesisacknowledgementstitle}
@@ -1492,7 +1492,7 @@
   \fi
   \pdfbookmark{\thesisbibname}{References}
   \hypersetup{bookmarksdepth=-2}
-  \addcontentsline{toc}{chapter}{参考文献}
+  \addcontentsline{toc}{chapter}{\heiti 参考文献}
   \addcontentsline{toe}{chapter}{References}
   \hypersetup{bookmarksdepth=2}
   \nocite{*}
@@ -1565,7 +1565,7 @@
     \appendix
     \renewcommand{\thechapter}{\appdname~\Alph{chapter}}
     \hypersetup{bookmarksdepth=-2}
-    \addcontentsline{toc}{chapter}{附录}
+    \addcontentsline{toc}{chapter}{\heiti 附录}
     \addcontentsline{toe}{chapter}{\l_engtocitem_str}
     \stoptocwriting
   }

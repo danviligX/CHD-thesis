@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.19)  27 MAY 2023 11:32
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.3)  5 JAN 2024 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,11 +1885,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 1293.
+Package glossaries Info: Writing glossary file main.glo on input line 1291.
 \glo@symbols@file=\write7
 \openout7 = `main.slo'.
 
-Package glossaries Info: Writing glossary file main.slo on input line 1293.
+Package glossaries Info: Writing glossary file main.slo on input line 1291.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
@@ -2675,11 +2675,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65483 strings out of 477728
- 1422514 string characters out of 5842238
- 2514867 words of memory out of 5000000
- 84876 multiletter control sequences out of 15000+600000
- 524136 words of font info for 194 fonts, out of 8000000 for 9000
+ 65486 strings out of 477728
+ 1422630 string characters out of 5842239
+ 2514911 words of memory out of 5000000
+ 84878 multiletter control sequences out of 15000+600000
+ 524144 words of font info for 195 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  115i,17n,157p,1814b,5318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
